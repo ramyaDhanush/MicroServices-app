@@ -10,7 +10,7 @@ services:
   listing-service-db:
     environment:
       - MYSQL_ROOT_PASSWORD=password
-      - MYSQL_DATABASE = db
+      - MYSQL_DATABASE=db
     image: mysql:5.7.20
 
   users-service:
@@ -23,5 +23,5 @@ services:
   users-service-db:
     environment:
       - MYSQL_ROOT_PASSWORD=password
-      - MYSQL_DATABASE = db
+      - MYSQL_DATABASE=db
     image: mysql:5.7.20
